@@ -4,8 +4,8 @@ import rootReducer from './reducer'
 import { print1, print2, print3 } from './exampleAddons/middleware'
 
 const composedEnhancer = composeWithDevTools(
-  // EXAMPLE: Add whatever middleware you actually want to use here
-  applyMiddleware(print1, print2, print3)
+  // Add whatever middleware you actually want to use here
+  applyMiddleware()
   // other store enhancers if any
 )
 

@@ -6,7 +6,7 @@ import filtersReducer from './features/filters/filtersSlice'
 const rootReducer = combineReducers({
   // Define a top-level state field named `todos`, handled by `todosReducer`
   todos: todosReducer,
-  filters: filtersReducer
+  filters: filtersReducer,
 })
 
 export default rootReducer
